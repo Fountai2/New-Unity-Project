@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TriggerActivateCube.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TextureMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js" Line="1" Column="1" />
+      <File FileName="Assets/Prefabs/Player/BaitNSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Player/FollowStates.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Player/PlayerControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MorphScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TriggerActivateCube.cs" Line="4" Column="33" />
+      <File FileName="Assets/Scripts/TriggerActivateSphere.cs" Line="28" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
