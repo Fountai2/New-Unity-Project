@@ -7,7 +7,7 @@ public class JumpBooster : MonoBehaviour
 	
 	void OnTriggerEnter  (Collider other  ) 
 	{
-		if (other.tag == "Player")
+		if (other.tag == "PlayerCube")
 		{
 			other.rigidbody.AddForce(Vector3.up * JumpSpeed);
 		}

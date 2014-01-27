@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TriggerActivateSphere : MonoBehaviour {
+//private GameObject targetobj;
 
+public class TriggerActivateSphere : MonoBehaviour {
+	public Vector3 currentSpherePos;
 	// Use this for initialization
 	void Start () {
 	
@@ -15,12 +17,19 @@ public class TriggerActivateSphere : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "Sphere")
+		 GameObject tempObj;
+
+		tempObj = other.gameObject;
+
+		if (tempObj.tag == "Sphere")
 		{
-			other.gameObject.SetActive(false);
-			Debug.Log("Cube hit");
+			currentSpherePos = tempObj.transform.position;
+			tempObj.SetActive(false);
+			Debug.Log(currentSpherePos);
 
-		} 
-
+		} else if (tempObj.tag == "Block"){
+			tempObj.SetActive(false);
+			Debug.Log ("Sphere hit");
+		}
 	}
 }

@@ -54,6 +54,8 @@ function Update () {
 	}
 }
 
+
+
 function ProjectOntoPlane (v : Vector3, normal : Vector3) {
 	return v - Vector3.Project(v, normal);
 }

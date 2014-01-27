@@ -15,18 +15,19 @@ public class BaitNSwitch : MonoBehaviour {
 	void Update () {
 
 
-	if(Input.GetKeyDown (KeyCode.Q) && isCube != true)
+	if(Input.GetKeyDown (KeyCode.W) && isCube != true)
 		{
-			Debug.Log("Make a Cube");
+			//Debug.Log("Make a Cube");
 			playerPos = Sphere.transform.position;
+			Sphere.rigidbody.velocity = Vector3.zero;
 			Sphere.SetActive(false);
 			Cube.SetActive(true);
 			Cube.transform.position = playerPos;
 			isCube = true;
 		} else
-	if(Input.GetKeyDown (KeyCode.Q) && isCube == true)
+	if(Input.GetKeyDown (KeyCode.W) && isCube == true)
 		{
-			Debug.Log("Make a Sphere");
+			//Debug.Log("Make a Sphere");
 			playerPos = Cube.transform.position;
 			Cube.SetActive(false);
 			Sphere.SetActive(true);
@@ -36,4 +37,21 @@ public class BaitNSwitch : MonoBehaviour {
 
 
 	}
-}
+
+	/*void OnTriggerEnter(Collider other)
+	{
+
+		if (other.gameObject.tag == "Player")
+		{
+			currentCubePos = other.gameObject.transform.position;
+			Debug.Log(currentCubePos);
+			other.gameObject.SetActive(false);
+			Debug.Log("Cube deactivate");
+			
+		} 
+		
+	}*/
+
+	}
+
+

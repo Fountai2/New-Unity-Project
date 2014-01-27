@@ -10,15 +10,18 @@ public class PlayerControl : MonoBehaviour
 	public float jumpSpeed = 5.0f;
 	public float drag = 2;
 	private bool canJump = true;
-	
+	public float zPos;
 	void Start()
 	{
 		moveJoy = GameObject.Find("LeftJoystick");
 		_GameManager = GameObject.Find("_GameManager");
 	}
-	
+
 	void Update () 
 	{	
+		Vector3 pos = transform.position;
+		pos.z = zPos;
+		transform.position=pos;
 		/*Vector3 forward = Camera.main.transform.TransformDirection(Vector3.forward);
 		forward.y = 0;
 		forward = forward.normalized;
@@ -97,9 +100,5 @@ public class PlayerControl : MonoBehaviour
 		}
     }
 	
-	void OnGUI()
-	{
-		GUI.Label(new Rect(300,10,100,100),"X: " + moveJoy.GetComponent<Joystick>().position.x.ToString());
-		GUI.Label(new Rect(300,30,100,100),"Y: " + moveJoy.GetComponent<Joystick>().position.y.ToString());
-	}
+
 }
