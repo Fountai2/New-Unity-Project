@@ -1,21 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CreditsDisable.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefabs\Player\PlatformSticky.cs">
     <Files>
-      <File FileName="Assets\Scripts\CameraFollow.cs" Line="26" Column="70" />
-      <File FileName="Assets\Script\Platform\MovingPlatform.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" Line="1" Column="1" />
-      <File FileName="Assets\Prefabs\Player\BaitNSwitch.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Switch.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyUnitySingleton.cs" Line="1" Column="1" />
-      <File FileName="Assets\LevelProgression.cs" Line="1" Column="1" />
-      <File FileName="Assets\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TextureMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Prefabs\Player\PlatformSticky.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TriggerActivateCube.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TriggerActivateSphere.cs" Line="1" Column="1" />
-      <File FileName="Assets\CreditsEnable.cs" Line="1" Column="1" />
-      <File FileName="Assets\CreditsDisable.cs" Line="18" Column="28" />
+      <File FileName="Assets\Prefabs\Player\PlatformSticky.cs" Line="27" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

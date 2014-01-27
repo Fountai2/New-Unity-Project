@@ -13,7 +13,7 @@ public class PlatformSticky : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter(Collision c)
+	void OnTriggerEnter(Collider c)
 	{
 		Debug.Log("I'm touching something!");
 		if(c.transform.tag == "Platform")
@@ -24,7 +24,7 @@ public class PlatformSticky : MonoBehaviour {
 		}
 }
 
-	void OnTriggerExit(Collision c)
+	void OnTriggerExit(Collider c)
 	{
 		if(c.transform.tag == "Platform")
 		{
